@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "ES2018",
-    "module": "ESNext",
+    "module": "ES2022",
     "moduleResolution": "node",
     "lib": [
       "es2018"
     ],
+    "baseUrl": "./",        // 根目录基准路径 
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,

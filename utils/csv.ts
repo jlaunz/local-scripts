@@ -1,9 +1,7 @@
 
 import { Readable } from "stream";
 import fs from 'fs';
-
-
-const csv = require("csv-parser");
+import csv from "csv-parser"
 
 export function processCsv(stream: Readable) {
   return new Promise<any>((resolve, reject) => {
